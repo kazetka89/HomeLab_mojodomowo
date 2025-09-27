@@ -25,7 +25,10 @@ Celem jest nauka, automatyzacja i centralizacja usług w jednej, spójnej infras
 ⚙️ **Inne usługi** *(opcjonalnie)*  
 - Serwer gier / aplikacji  
 - Monitorowanie sieci i urządzeń (np. Grafana/Prometheus)  
-- Automatyzacja zadań i skrypty systemowe  
+- Automatyzacja zadań i skrypty systemowe
+- Sprawdzanie adresu IP publicznego (od dostawcy) i wyświetlanie go na wyświetlaczu LCD
+- Sterowanie serwerami za pomocą przełączników (zrobione na ESP32)
+- Sterowanie oświetleniem za pomocą ESP32
 
 ---
 
