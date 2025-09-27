@@ -32,7 +32,7 @@ Celem jest nauka, automatyzacja i centralizacja usług w jednej, spójnej infras
 ## 🛠️ Wykorzystany sprzęt
 
 - Raspberry Pi 3/4/5  
-- Dysk zewnętrzny USB 1–2 TB  
+- Dysk zewnętrzny USB 500GB 
 - Router Mikrotik (z obsługą VLAN i DHCP)  
 - Zasilacz UPS (opcjonalnie, dla stabilności)  
 
@@ -50,3 +50,9 @@ Celem jest nauka, automatyzacja i centralizacja usług w jednej, spójnej infras
 2. **Instalacja PiVPN**
    ```bash
    curl -L https://install.pivpn.io | bash
+   ```
+3. **Instalacja OpenMediaVault**
+   ```bash
+   sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
+   ```
+   
