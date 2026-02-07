@@ -46,9 +46,9 @@ Celem jest nauka, automatyzacja i centralizacja usług w jednej, spójnej infras
 1. **Przygotowanie systemu**
    - Instalacja systemu Linux (np. Raspberry Pi OS / Debian / openSUSE)  
    - Aktualizacja pakietów:
-     ```bash
-     sudo apt update && sudo apt upgrade -y
-     ```
+   ```bash
+   sudo apt update && sudo apt upgrade -y
+   ```
 
 2. **Instalacja PiVPN**
    ```bash
