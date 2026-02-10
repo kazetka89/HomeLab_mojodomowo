@@ -1,0 +1,17 @@
+[Unit]
+Description=Discord Bot Service
+After=network.target
+
+[Service]
+WorkingDirectory=/home/pi3/bot-discord #przykładowo
+ExecStart=/usr/bin/python3 bot.py #zamiast bot.py dać nazwe własnego bota 
+User=root
+Restart=always
+RestartSec=5
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=discord-bot
+
+[Install]
+WantedBy=multi-user.target
+EOF'
