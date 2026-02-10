@@ -1,0 +1,13 @@
+[Unit]
+Description=User Ping Discord
+After=network.target
+
+[Service]
+WorkingDirectory=/home/pi3/bot-discord/dashboard_botdiscord #lokalizacja katologu z botem
+ExecStart=/usr/bin/python3 web_server.py #nazwa bota wsłasnego zamiast web_server.py
+User=root
+Restart=always
+RestartSec=5
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=bot-dashboard
